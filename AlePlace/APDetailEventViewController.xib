@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="APDetailEventViewController">
+            <connections>
+                <outlet property="album1" destination="yjv-Df-8JE" id="llB-Lg-SRz"/>
+                <outlet property="album2" destination="ljD-3C-KLv" id="X3X-av-iaE"/>
+                <outlet property="album3" destination="Vrt-eh-gbS" id="lR7-M7-Hh0"/>
+                <outlet property="btItemAle" destination="GDX-p5-VKt" id="qLW-YU-LqH"/>
+                <outlet property="btItemHome" destination="ANY-Hw-foo" id="M6h-26-Mqm"/>
+                <outlet property="btItemPlace" destination="YfD-RA-eMj" id="6C2-s4-kyL"/>
+                <outlet property="btItemTake" destination="IIn-Sg-jbZ" id="SJw-OT-SYV"/>
+                <outlet property="description" destination="i9i-oD-9Rs" id="jrL-8d-aOv"/>
+                <outlet property="enddate" destination="HmK-gu-lue" id="7fv-Wz-wjm"/>
+                <outlet property="imageDetailEvent" destination="DVV-Jj-97l" id="Xre-GX-VeR"/>
+                <outlet property="scrollDetailEvent" destination="J0Q-8p-VUn" id="x5T-jZ-0rz"/>
+                <outlet property="startdate" destination="DYQ-gs-nIR" id="aoW-94-XDc"/>
+                <outlet property="tabBarAle" destination="Tyt-cS-KhL" id="kDf-md-0NY"/>
+                <outlet property="tabBarItemAle" destination="5My-j2-Riu" id="VXI-jg-kkk"/>
+                <outlet property="tabBarItemHome" destination="GKt-fQ-R9Z" id="ACB-rJ-IcS"/>
+                <outlet property="tabBarItemPlace" destination="HAY-me-Dhh" id="GPw-pQ-1Hd"/>
+                <outlet property="tabBarItemTace" destination="7dd-Ku-5s5" id="qEE-CT-vBa"/>
+                <outlet property="titleDescription" destination="zsI-9b-urV" id="9Fv-q3-e1R"/>
+                <outlet property="titleEvent" destination="z2C-k4-12D" id="glB-7l-Lpi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewBg" destination="rJg-CB-G84" id="LUV-ta-XyQ"/>
+                <outlet property="webView" destination="laI-HV-bWo" id="aaf-7s-vHL"/>
+                <outlet property="webViewDes" destination="5uV-sT-F1K" id="2Vm-fE-EgR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="J0Q-8p-VUn">
+                    <rect key="frame" x="0.0" y="55" width="320" height="383"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <subviews>
+                        <webView contentMode="scaleToFill" id="laI-HV-bWo">
+                            <rect key="frame" x="9" y="116" width="302" height="144"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </webView>
+                        <view contentMode="scaleToFill" id="rJg-CB-G84">
+                            <rect key="frame" x="0.0" y="2" width="320" height="400"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="DVV-Jj-97l">
+                                    <rect key="frame" x="10" y="13" width="145" height="73"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start date:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h5e-XK-e0n">
+                                    <rect key="frame" x="171" y="11" width="141" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DYQ-gs-nIR">
+                                    <rect key="frame" x="171" y="31" width="141" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End date:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="S0X-EE-kae">
+                                    <rect key="frame" x="171" y="50" width="141" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HmK-gu-lue">
+                                    <rect key="frame" x="171" y="68" width="141" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zsI-9b-urV">
+                                    <rect key="frame" x="10" y="94" width="124" height="28"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="i9i-oD-9Rs">
+                                    <rect key="frame" x="10" y="122" width="302" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yjv-Df-8JE">
+                                    <rect key="frame" x="10" y="130" width="93" height="58"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ljD-3C-KLv">
+                                    <rect key="frame" x="111" y="130" width="97" height="58"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Vrt-eh-gbS">
+                                    <rect key="frame" x="216" y="130" width="96" height="58"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <webView contentMode="scaleToFill" id="5uV-sT-F1K">
+                                    <rect key="frame" x="10" y="122" width="302" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </webView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="lre-Si-udS"/>
+                    </connections>
+                </scrollView>
+                <tabBar contentMode="scaleToFill" id="Tyt-cS-KhL">
+                    <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items>
+                        <tabBarItem title="Ale" id="5My-j2-Riu"/>
+                        <tabBarItem title="Take care" id="7dd-Ku-5s5"/>
+                        <tabBarItem title="Places" id="HAY-me-Dhh"/>
+                        <tabBarItem title="Home" id="GKt-fQ-R9Z"/>
+                    </items>
+                    <connections>
+                        <outlet property="delegate" destination="5My-j2-Riu" id="Snj-is-Uvk"/>
+                    </connections>
+                </tabBar>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z2C-k4-12D">
+                    <rect key="frame" x="10" y="15" width="301" height="30"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.12920894371756919" green="0.41716373293242687" blue="0.78356402853260865" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="GDX-p5-VKt">
+                    <rect key="frame" x="0.0" y="439" width="80" height="42"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <size key="titleShadowOffset" width="2" height="2"/>
+                    <state key="normal" backgroundImage="Ale-button.png"/>
+                    <state key="selected" backgroundImage="Ale-button-hover.png"/>
+                    <state key="highlighted" backgroundImage="Ale-button.png">
+                        <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <connections>
+                        <action selector="showAle:" destination="-1" eventType="touchUpInside" id="SMH-9V-Oej"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IIn-Sg-jbZ">
+                    <rect key="frame" x="80" y="439" width="80" height="42"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="Takecare-but.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="Takecare-but-hover.png"/>
+                    <connections>
+                        <action selector="showTake:" destination="-1" eventType="touchUpInside" id="XBF-vy-D92"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YfD-RA-eMj">
+                    <rect key="frame" x="160" y="439" width="80" height="42"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="Places-but.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="Places-icon-hover.png"/>
+                    <connections>
+                        <action selector="showPlace:" destination="-1" eventType="touchUpInside" id="GAb-8F-gMl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ANY-Hw-foo">
+                    <rect key="frame" x="240" y="439" width="80" height="42"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="Home-but.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="Home-but-hover.png"/>
+                    <connections>
+                        <action selector="showHome:" destination="-1" eventType="touchUpInside" id="baI-SG-9Jj"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Ale-button-hover.png" width="469" height="229"/>
+        <image name="Ale-button.png" width="469" height="229"/>
+        <image name="Home-but-hover.png" width="469" height="229"/>
+        <image name="Home-but.png" width="469" height="229"/>
+        <image name="Places-but.png" width="468" height="229"/>
+        <image name="Places-icon-hover.png" width="468" height="229"/>
+        <image name="Takecare-but-hover.png" width="469" height="229"/>
+        <image name="Takecare-but.png" width="469" height="229"/>
+    </resources>
+</document>
